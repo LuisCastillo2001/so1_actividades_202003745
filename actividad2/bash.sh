@@ -1,5 +1,4 @@
-#!/bin/bash
-GITHUB_USER="luis2001xd"
+GITHUB_USER="$1"
 api="https://api.github.com/users/$GITHUB_USER"
 
 #Los archivos
@@ -22,9 +21,9 @@ mkdir -p "$dir"                  # Usa -p para crear todos los directorios neces
 ID_USER=$(curl -s $api | jq '.id')
 CREATED_AT=$(curl -s $api | jq '.created_at')
 
-echo "Hola $GITHUB_USER , USER_ID: $ID_USER , CUENTA FUE CREADA EL: $CREATED_AT " > "$dir/$archivo_salida"
+echo "Hola $GITHUB_USER , USER_ID: $ID_USER , CUENTA FUE CREADA EL: $CREATED_AT " >> "$dir/$archivo_salida"
 
 #Para crear un cronjob
 #crontab -e
 #Agregar al archivo lo siguiente y presionar ctrl + O
-#*/min hor day month * /home/luis/Documentos/magistral/tareas/tarea2/actividad2.sh
+#*/min hor day month * /home/luis/Documentos/magistral/tareas/tarea2/actividad2.sh luis2001xd
