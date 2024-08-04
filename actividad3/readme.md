@@ -81,6 +81,12 @@ Para acceder como usuario 1:
 ## Permisos de directorio
 - chmod 740 directorio1
 
+### ¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?
+Debido a que esto permite una mejor seguridad y una mejor organización al momento de que los usuarios quieran hacer cualquier acción.  
+Por ejemplo si existe un grupo de administradores en una empresa, con la gestion de usuarios realizada correctamente un usuario normal no pueda acceder a los archivos de los administradores.  
+### ¿Qué otros comandos o técnicas conocen para gestionar permisos en Linux?
+chgrp, chcon, lsattr, find, nano, y otro más que permiten modificar y ver atributos de un rachivo.
+
 ![image](https://github.com/user-attachments/assets/073637c6-ee6e-4ccb-813e-6c1551e1022a)
 
 ## Verificacion de permisos
