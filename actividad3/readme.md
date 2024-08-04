@@ -27,8 +27,8 @@
 
 # Parte 2 Gestion de grupos
 ## Creación de grupos
-groupadd grupo1  
-groupadd grupo2  
+- groupadd grupo1  
+- groupadd grupo2  
 
 ## Agregar usuarios a grupos
 - usermod -a -G grupo1 usuario1
