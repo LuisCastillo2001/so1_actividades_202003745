@@ -1,4 +1,4 @@
-#!/bin/bash
+
 # Parte 1 Gestión de usuarios
 #Para acceder como usuario root
 su - 
