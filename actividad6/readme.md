@@ -104,4 +104,4 @@ Cada uno de los 3 procesos crea 1 proceso hijo adicional, sumando 3 nuevos proce
 
 ¿Cuántos hilos únicos son creados?
 
-Solo hay una llamada, por lo tanto solo se crea 1 hilo.
+Solo hay una llamada, no obstante un proceso lleva un hilo implicitamente para su ejecución, esto quiere decir que hay 2 hilos creados.
